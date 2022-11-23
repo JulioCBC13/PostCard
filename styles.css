@@ -35,12 +35,6 @@ body {
 	padding: 5px;
 }
 
-input {
-	border: none;
-	border-bottom: 1px gray;
-	background-color: none;
-}
-
 .postcard-footer {
 	text-align: center;
 }
@@ -49,4 +43,11 @@ input {
 	background-color: grey;
 	padding: 5px 10px;
 	color: black;
+}
+
+input::placeholder {
+	color: black;
+	font-family: "Bungee Spice", cursive;
+	background-color: white;
+	text-decoration: underline;
 }
